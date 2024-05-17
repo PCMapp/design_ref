@@ -1,1 +1,1 @@
-# design_ref
+Reference page for general design rules.
