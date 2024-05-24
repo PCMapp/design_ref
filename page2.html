@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg-stone-50 pl-48 pt-4 flex flex-col gap-y-3 items-center">
+<body class="bg-zinc-50 text-zinc-800 bg-noise pl-48 pt-4 flex flex-col gap-y-3 items-center">
   <div class="fixed bottom-2 right-2 h-6 flex gap-x-2">
     <a href="index.html">1</a>
   </div>
@@ -106,25 +106,38 @@
   </div>
 
   <div
-    class="rounded-sm w-[1260px] border border-stone-400 bg-stone-50 drop-shadow flex items-center justify-between p-2">
+    class="rounded-sm w-[1260px] border border-zinc-400 bg-zinc-50 drop-shadow flex items-center justify-between p-2">
     <label>filter<input /></label>
     <div class="grow"></div>
+    <label><input type="radio" class="accent-cyan-600 text-white" /> option</label>
     <label><input type="radio" /> option</label>
     <label><input type="radio" /> option</label>
     <label><input type="radio" /> option</label>
-    <label><input type="radio" /> option</label>
+    <label><input type="checkbox" class="accent-cyan-600 text-white" /> option</label>
     <div class="grow"></div>
-    <button class="px-4 h-8 bg-sky-600 cursor-pointer select-none
-    text-white font-bold rounded-sm
-    active:bg-sky-400 hover:bg-sky-500
-    flex items-center justify-center
-    transition-colors ease-out duration-100">New Evaluee</button>
+
+    <div class="px-4 h-8 bg-cyan-500 cursor-pointer select-none
+      text-white font-bold rounded-sm
+      active:bg-cyan-500 hover:bg-cyan-400
+      flex items-center justify-center
+      transition-colors ease-out duration-100">
+      <div>New Evaluee</div>
+    </div>
+
+    <div class="px-4 h-8 bg-rose-600 cursor-pointer select-none
+      text-white font-bold rounded-sm
+      active:bg-rose-600 hover:bg-rose-500
+      flex items-center justify-center
+      transition-colors ease-out duration-100">
+      <div>?</div>
+    </div>
+
   </div>
 
   <table
-    class="w-[1260px] text-sm rounded-sm drop-shadow border border-stone-400 border-collapse [&>thead>tr>th]:border [&>thead>tr>th]:border-stone-400 [&>tbody>tr>td]:border [&>tbody>tr>td]:border-stone-400 [&>tbody>tr:nth-child(even)]:bg-stone-100 [&>tbody>tr:nth-child(odd)]:bg-stone-50">
+    class="w-[1260px] text-sm rounded-sm drop-shadow border border-zinc-400 border-collapse [&>thead>tr>th]:border [&>thead>tr>th]:border-zinc-400 [&>tbody>tr>td]:border [&>tbody>tr>td]:border-zinc-400 [&>tbody>tr:nth-child(even)]:bg-zinc-100 [&>tbody>tr:nth-child(odd)]:bg-zinc-50">
     <thead>
-      <tr class="bg-stone-200">
+      <tr class="bg-zinc-200">
         <th>lorum ipsum</th>
         <th>lorum ipsum</th>
         <th>lorum ipsum</th>
